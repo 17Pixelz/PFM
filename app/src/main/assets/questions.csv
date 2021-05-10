@@ -1,0 +1,62 @@
+1,C'est quoi "Android"?,Architecture de donnees,Framework,Langage de programmation,Systeme d'exploitation,4,1
+2,Quel est le langage utilise pour le developpement mobile?,PHP,Kotlin,VB,C#,2,1
+3,Android est supporte par quel entreprise?,Microsoft,Amazon,Google,Apple,3,1
+4,Quel est l'IDE officiel de google pour le developpement mobile?,Android Studio,Intellij,Netbeans,Visual code,1,1
+5,Quel est l'utilite de "AVD"?,Schematiser l'arbrescence du projet,Importation des bibliotheques,Chercher les bugs,Executer le projet dans un emulateur,4,1
+6,Sur quel dossier se trouve les fichiers XML?,Layout,Drawable,Values,res,4,1
+7,Kotlin est de typage,Dynamique,Dynamique et Statique,Statique,Autre,3,1
+8,la fonction de Layout Manager permet de:,Gerer la position des composants,Trouver chaque composant par Id,Instancier un objet,Lier le code avec la vue,4,1
+9,C'est quoi "XML"?,SGBD,Gestionnaire des taches,Langage descriptif de texte,Methode de conception,3,1
+10,Que signifie "Gravity"?,Layout Manager,Direction d'alignement des widgets,Composant,Reference,2,1
+11,c'est quoi "ListView"?,Collection ordonee de choix,champ de text,style de text,tableau,1,2
+12,A quoi sert l'adaptateur?,Aligner les composants,Transformer une liste en une vue Liste,gestion de position,Appel des methodes,2,2
+13,Dans quel fichier les elements sont stockees pour une liste statique?,string.xml,theme.xml,strings.xml,drawable.xml,3,2
+14,Quel est le positionnement des arguments de "Adapter"?,Activity-Layout-Array,Activity-Array-Layout,Layout-Activity-Array,Array-Layout-Activity,1,2
+15,Quel est le code qui recupere un element de view dans fichier.kt?,setContentView,findViewById,findElementById,setOnClickListener,2,2
+16,Qu'est ce qu'on a besoin pour personaliser un item d'une liste?,Changer le style dans string.xml,Creer un fichier XML definissant la disposition des widgets,Modifier activity_main.xml, Creer un fichier de configuration txt,1,2
+17,Que contient le dossier "Manifest"?,Description du contenu logiciel,Outil de compilation,Description des properties,Description de disposition des fichiers,4,2
+18,C'est quoi "Gradle"?,Outil de construction de projet,Outil de contraintes dynamiques,Outil qui lie la vue avec le codeBehind,Outil de test,3,2
+19,Le recyclage  dans RecycleView se fait avec :,ViewHolder,Adapter,HolderView,RecycleAdapter,1,2
+20,Qu'est ce qu'on a besoin pour afficher une ligne entre Items?,DividerItem,DividerItemDecoration,ItemSeparation,showItem,1,2
+21,C'est quoi un intent?,LayoutManager,Pont entre les activités,SDKManager,Layout,2,3
+22,Objectif d'utilisation d'un intent:,Invoquer une vue,Avoir des vues identiques,Afficher une seule activite,Invoquer une autre activite,4,3
+23,Quel la methode qui permet de lancer une activite?,StartActivity,StartView,ViewStart,ActivityStart,1,3
+24,La methode putExtra permet de:,Transmettre les donnees,Copier les donnees,Recuperer les donnees,Supprimer les donnees,3,3
+25,Quel est la methode qui attent une reponse de l'activite appelee?,StartActivity,StartView,ViewStart,StartActivityForResult,4,3
+26,Pour arreter l'activite on fait appel a :,OnStart,OnStop,OnDelete,OnResume,2,3
+27,Quel est le code qui assure que l'activite s'est bien deroulee?,RequestCode,ResultCode,ResponseCode,setResult,1,3
+28,Quel est la methode qui mis fin à l'activite appelee pour retourner l'activite appelante?,OnStop,finish,cancel,OnResume,2,3
+29,Quel est le cycle de vie d'une Activity au regard des differentes methodes?,onCreate()-onStart()-onResume()-onPause()-onStop()-onDestroy(),onCreate()-onResume()-onStart()-onStop()-onPause()-onDestroy(),onCreate()-onStart()-onPause()-onDestroy(),onCreate()-onStart()-onPause()-onResume()-onStop(),1,4
+30,Quelle est la methode qu'il faut surcharger pour mettre en place le layout d'un Fragment?,onCreate(Bundle),onCreateView(),onActivityCreated(Bundle),onStartView(),3,4
+31,Quelle est la difference entre la methode onResume() et OnStart()?,OnStart est lors de demarrage et l'autre en arriere plan,OnStart est en arriere plan et l'autre au demmarage,Aucune difference,les deux sont en mode demarrage,1,4
+32,Quelle est la methode qui doit etre obligatoirement implémentee ?,OnCreate,OnDestroy,OnStop,OnStart,4,4
+33,A quoi sert l'element RadioGroup ?,Regrouper les RadioText,Regrouper les RadioButton,Regrouper les buttonRadio,Regrouper les radioGroup,2,4
+34,Comment peut-on stocker une donnee sur android ?,Serveur via Rest,SDPunchedCard,SQLite,DAO,3,4
+35,Comment mettre a jour une BD ?,MigrateAdaapter,SQLiteOpenHelper,SQLIntent,Upgrade,2,4
+36,Quel Layout n'existe pas dans android ?,LinearLayout,RelativeLayout,SequentielLayout,FrameLayout,3,4
+37,Quels methodes sont appeles lorsque un appel survient l'app ?,OnPhoneBreak-OnResume,OnPause-OnResume,OnStart-OnResume,OnResume-OnPause,3,4
+38,A quel moment la methode onCreate est appelee ?,Premier Lancement,Avant que activite ne passe au premier plan,Uniquemt appel de Bundle,Apres le lancement de l'activité,1,4
+39,Quel est le mode par defaut d'une chaine?,Spared,Spared_inside,Packed chain,Autre,1,2
+40,la superclasse ViewGroup represente :,conteneurs widget-views,conteneurs activity-views,conteneurs widgets-activity,conteneurs views-activity,1,2
+41,La classe Fragment genere:,Des objets visuels,Des methodes,Des fonctions,Des Constructeurs,1,5
+42,Quelle est la premiere methode executee dans le cycle de vie d'un fragment?,onCreate,onStrart,onAttach,onCreateView,3,5
+43,Un fragment peut etre affiche que dans une:,LinearLayout,Spinner,RecycleView,Activite,4,5
+44,Quelle est la premiere etape pour creer un fragment en utilisant XML?,Creer une sous-classe de fragment,Creer un layout pour fragement,Redefinir onCreateVie,Placer le fragmentdans une activite,1,5
+45,Quelle est l'utilite de "Fragment Manager"?,la liaison entre l'activite et le fragment,L'affichage de l'activite,Il gere l'affichage du fragment,L'affichage du layout,3,5
+46,Quelle est la derniere etape de creer un fragement en utilisant kotlin?,Creer une sous-xlasse de fragment,Creer un layout pour le fragment,Redefinir onCreateView,Placer le fragment dans une activite,4,5
+47,L'ajout et la suppression du fragment se fait a l'aide de:,Constructeurs,Transactions,Methodes,Fontions d'ajout-Suppression,2,5
+48,Pour definir des fragments dynamiquement on fait appel a:,FragmentManager,Constructeur,FragmentLayout,onCreateView,1,5
+49,Quelle est l'utilite de "JOIN"?,Associe deux tableaux,Combine les enregistrements entre deux tables ou plus,Associe plusieurs base de donnees,Assure l'envoi des donnees,2,5
+50,Que definie "LIMIT"?,Obtient les premiers N resultats de la requete,Obtient les derniers N resultats de la requete,Le nombre Max des resultats,le nombre Max des enregistrements,1,5
+51,Lequel de ces logiciels n'est pas un logiciel de base de donnees?,Oracle,Intellij,SQLLite,MySql,2,6
+52,Les fichiers SharedPreferences sont utilises pour:,Manipuler des petits data,Manipuler les grands data,Gerer les data complexes,Importer/Exporter data,1,6
+53,Les donnees sont stockees dans:, La memoire externe du mobile,la memoire interne du mobile,la memoire vive,Des fichiers txt,2,6
+54,Quel est le mode de creation de fichiers par defaut?,MODE_PRIVATE,MODE_WORLD_READABLE,MODE_WORLD_WRITABLE,MODE_APPEND,1,6
+55,Quelle est la methode qu'on utilise pour obtenir un editeur?,write(),open(),edit(),start(),3,6
+56,Quelle est la méthode qu'on utilise pour ecrire dans un fichier?,write(),open(),edit(),start(),1,6
+57,Quelle est la méthode qu'on utilise pour fermer un fichier?,finish(),close(),destroy(),closeFile(),2,6
+58,Quelle est la méthode qu'on utilise pour lire des octets?,readFile(),readBits(),readOnly(),read(),4,6
+59,L'application a besoin de lire/ecrire le stockage externe du peripherique dans le fichier:,activity_main.xml,activity_confirm.xml,AndroidManifest.xml,mobile_navigation.xml,3,6
+60,Quelle la methode qui permet de Lire/Ecrire le stockage externe?,getExternalFilesDir(),getExternelStorageState(),isExternelStorageWritable(),isExternelStorageReadable(),1,6
+61,La methode putExtra permet de:,Transmettre les donnees,Copier les donnees,Recuperer les donnees,Supprimer les donnees,3,3
+62,Quel est la methode qui attent une reponse de l'activite appelee?,StartActivity,StartView,ViewStart,StartActivityForResult,4,3

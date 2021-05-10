@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_cours"
+        android:icon="@drawable/cours"
+        android:title="@string/cours" />
+
+    <item
+        android:id="@+id/navigation_quiz"
+        android:icon="@drawable/quiz"
+        android:title="@string/quiz" />
+
+    <item
+        android:id="@+id/navigation_stats"
+        android:icon="@drawable/statistics"
+        android:title="@string/stats" />
+
+</menu>

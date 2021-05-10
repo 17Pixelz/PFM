@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@id/navigation_quiz">
+
+    <fragment
+        android:id="@+id/navigation_cours"
+        android:name="com.ensas.android.pfm.ui.cours.CoursFragment"
+        android:label="@string/cours"
+        tools:layout="@layout/fragment_cours" />
+
+    <fragment
+        android:id="@+id/navigation_quiz"
+        android:name="com.ensas.android.pfm.ui.quiz.QuizFragment"
+        android:label="@string/quiz"
+        tools:layout="@layout/fragment_quiz" />
+
+    <fragment
+        android:id="@+id/navigation_stats"
+        android:name="com.ensas.android.pfm.ui.stats.StatsFragment"
+        android:label="@string/stats"
+        tools:layout="@layout/fragment_stats" />
+</navigation>
